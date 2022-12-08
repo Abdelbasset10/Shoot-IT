@@ -1,26 +1,27 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
+*{
+  overflow-x: hidden;
+  
 }
+body{
+  background: linear-gradient(135deg , #4C007D 45%,#BC4ED8);
 
-* {
-  box-sizing: border-box;
+
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.bg{
+}
+.bgHero2{
+  
+  background-image: url('../public/gg.png');
+  background-position: center;
+  background-size: cover;
+}
+.wt{
+  background-color: rgba(255, 255, 255, 0.89);
+}
+.wt1{
+   background-color:  rgba(255, 255, 255, 0.54);
 }
