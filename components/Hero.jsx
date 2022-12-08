@@ -20,7 +20,7 @@ const Hero = () => {
         className='w-[10rem]' />
         <motion.h1
         variants={textVariant(1.1)}
-         className='text-shoot-white overflow-y-hidden	 text-4xl sm:text-5xl md:text-7xl lgtext-8xl font-bold' >SH<span className='text-shoot-perple' >OO</span>T<span className='text-shoot-perpleDark' >I</span>T</motion.h1>
+         className='text-shoot-white overflow-y-hidden	 text-4xl sm:text-5xl md:text-7xl lgtext-8xl font-bold' >SH<span className='text-shoot-perple' >OO</span>T <span className='text-shoot-perple' >I</span>T</motion.h1>
         <motion.p
         variants={textVariant(1.2)} 
         className='text-base sm:text-xl  md:text-2xl text-shoot-white' >Explore the world around you, discover its secret beauties <br /> and let a new side of yourself shine with Shoot it!</motion.p>

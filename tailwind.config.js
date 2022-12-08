@@ -13,7 +13,11 @@ module.exports = {
       "shoot-perpleDark":"#4C007D",
       "shoot-white":"#FFFFFF",
       "shoot-silver":"#C0C0C0	"
+    },
+    fontFamily:{
+      'shootFont':["Copperplate"]
     }
   },
+  
   plugins: [],
 }
