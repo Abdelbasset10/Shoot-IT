@@ -12,7 +12,7 @@ const Hero = () => {
     initial='hidden'
     whileInView='show'
     viewport={{once:false, amount: 0.25}}
-    className='w-full  bg pb-16'
+    className='w-full xl:h-[89vh]  bg pb-16'
     id="home" >
       <div className='w-[90%] lg:w-[80%] overflow-y-hidden m-auto flex flex-col bgHero2 gap-2 text-center items-center justify-center '>
         <motion.img src="/logo.png" alt="logogImg"
@@ -34,7 +34,7 @@ const Hero = () => {
             <MdOutlineViewAgenda className='md:text-xl text-2xl xl:text-3xl' />
             <p className='text-lg sm:text-xl overflow-y-hidden	 xl:text-2xl'>April 20-22, 2023</p>
           </div>
-          <div className='flex  gap-4 items-center   rounded-[12px] px-4 py-2 bg-shoot-perple w-[70%] md:w-[45%] lg:w-[40%] sm:justify-center cursor-pointer text-shoot-white ' >
+          <div className='flex  gap-4 items-center   rounded-[12px] px-4 py-2 bg-shoot-perpleDark w-[70%] md:w-[45%] lg:w-[40%] sm:justify-center cursor-pointer text-shoot-white ' >
             <GiPositionMarker className='md:text-xl text-2xl xl:text-3xl' />
             <p className='text-lg sm:text-xl overflow-y-hidden	 xl:text-2xl' >Marriott Hotel Bab Ezzouar</p>
           </div>

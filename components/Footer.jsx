@@ -12,7 +12,7 @@ const Footer = () => {
     initial='hidden'
     whileInView='show'
     viewport={{once:false, amount: 0.25}}
-    className="w-full bg py-20"
+    className="w-full xl:h-screen bg pt-20 pb-20"
     id='contact'
     >
         <motion.div

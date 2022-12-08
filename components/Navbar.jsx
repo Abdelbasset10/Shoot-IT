@@ -15,7 +15,7 @@ const Navbar = () => {
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className='py-2 px-4 flex justify-between md:justify-start overflow-y-hidden gap-[2rem] md:gap-[8rem] lg:gap-[15rem] items-center h-[11vh] sticky top-0 wt z-50' >
+    className='py-2 px-4 flex justify-between md:justify-start overflow-y-hidden gap-[2rem] md:gap-[8rem] lg:gap-[15rem] items-center h-[11vh] md:sticky md:top-0 wt z-50' >
         <div>
             <img src="/logo.png" alt="logoImage" className='w-20 ' />
         </div>

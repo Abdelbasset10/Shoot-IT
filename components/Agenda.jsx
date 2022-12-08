@@ -47,8 +47,8 @@ const Agenda = () => {
                     <div className='flex flex-col gap-4' >
                         {agendaDay1.map((agenda)=>{
                         return(
-                            <div className='text-xs flex justify-between gap-4 xl:gap-10 items-center' key={agenda.id} >
-                                <p className='text-xs sm:text-base sm:text-base w-[10rem] sm:w-[15rem]  xl:w-[10rem]' >{agenda.time}</p>
+                            <div className='text-base flex justify-between gap-4 xl:gap-10 items-center' key={agenda.id} >
+                                <p className='text-base sm:text-base sm:text-base w-[10rem] sm:w-[15rem]  xl:w-[10rem]' >{agenda.time}</p>
                                 <img src="/arrow.png" alt="arrowImg" className='w-4 md:w-10' />
                                 <p className='w-full sm:text-base xl:w-[20rem]' >{agenda.tache}</p>
                                 <div className='hidden xl:block w-1 h-8 bg-shoot-blue' ></div>
@@ -64,8 +64,8 @@ const Agenda = () => {
                     <div className='flex flex-col gap-4' >
                         {agendaDay2.map((agenda)=>{
                         return(
-                            <div className='text-xs flex justify-between gap-4 xl:gap-10 items-center' key={agenda.id} >
-                                <p className='text-xs sm:text-base w-[10rem] sm:w-[15rem]  xl:w-[10rem]' >{agenda.time}</p>
+                            <div className='text-base flex justify-between gap-4 xl:gap-10 items-center' key={agenda.id} >
+                                <p className='text-base sm:text-base w-[10rem] sm:w-[15rem]  xl:w-[10rem]' >{agenda.time}</p>
                                 <img src="/arrow.png" alt="arrowImg" className='w-4 md:w-10' />
                                 <p className='w-full sm:text-base xl:w-[20rem]' >{agenda.tache}</p>
                             </div>

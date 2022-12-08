@@ -7,10 +7,10 @@
   
 }
 body{
-    background: linear-gradient(135deg , #4C007D 45%,#BC4ED8);
-    
-
-
+  background: linear-gradient(135deg , #4C007D 45%,#BC4ED8);
+}
+.bg{
+  background: linear-gradient(135deg , #4C007D 45%,#BC4ED8);
 }
 .bgHero2{
   
