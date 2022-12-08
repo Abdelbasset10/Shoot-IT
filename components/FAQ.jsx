@@ -19,18 +19,18 @@ const FAQ = () => {
           <div className="flex flex-col gap-10 text-shoot-white 	 " >
             <div>
               <p className='overflow-y-hidden text-xl sm:text-2xl lg:text-4xl font-bold' >- How can we participate  ?</p>
-              <p className='text-lg' >You find the link to the registrations on our instagram bio or in pinned post on our facebook page </p>
+              <p className='text-lg' >You find the link to the registrations in our instagram bio or in pinned post in our facebook page </p>
             </div>
 
             <div>
               <p className='overflow-y-hidden text-xl sm:text-2xl lg:text-4xl font-bold'>- Do i need to have a team before joining ?</p>
-              <p className='text-lg'>It's better to have a team of 4 people, But event if you dont'have a freind interested in this event, we will put you with the rest of the participants who don't have a team either</p>
+              <p className='text-lg'>It's better to have a team of 4 people, But even if you don't have, we will put you with the rest of the participants they don't have a team either</p>
             </div>
             
             
             <div>
               <p className='overflow-y-hidden text-xl sm:text-2xl lg:text-4xl font-bold'>- Why join us ?</p>
-              <p className='text-lg'>Shoot it allows you to devolp your skills in th field of videography and introduces you to know people who have common characterestics with you, it will also allow you to live perfect and enjoyable moements</p>
+              <p className='text-lg'>Shoot it allows you to devolp your skills in th field of videography and introduces you to know people who have common characterestics with you, it will also allows you to live perfect and enjoyable moements</p>
             </div>
             
             <div>

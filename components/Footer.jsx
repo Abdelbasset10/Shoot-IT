@@ -18,7 +18,7 @@ const Footer = () => {
         <motion.div
         variants={slideIn('right','tween',0.2,1)}
         className="w-[90%] lg:w-[80%] m-auto flex flex-col items-center bgHero2  gap-10">
-            <p className=" text-xe sm:text-xl md:text-2xl lg:text-3xl text-shoot-white overflow-y-hidden" >YOU HAVE A QURSTION ? DONT'T HISTATE , CONTACT US </p>
+            <p className=" text-xe sm:text-xl md:text-2xl lg:text-3xl text-shoot-white overflow-y-hidden" >YOU HAVE A QUESTION ? DONT'T HISTATE , CONTACT US </p>
             <img src="/logo.png" alt="logo" className="w-[25rem]" />
             <div className="flex flex-col-reverse gap-4 md:gap-0 md:flex-row justify-between items-center w-full">
                 <div className=' flex items-center flex-wrap justify-center text-shoot-white gap-10' >

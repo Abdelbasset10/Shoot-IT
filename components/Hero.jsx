@@ -26,7 +26,7 @@ const Hero = () => {
         className='text-base sm:text-xl  md:text-2xl text-shoot-white' >Explore the world around you, discover its secret beauties <br /> and let a new side of yourself shine with Shoot it!</motion.p>
         <motion.p
         variants={textVariant(1.3)}
-        className='my-4 text-sm text-shoot-white sm:w-[80%] m-auto'>it’s a new idea for an event that will see the light for its first version in April 2023. SHOOT IT will start by offering workshops in photography and editing. It will later on organize an outing to a before-hand chosen location to allow candidates to prepare the necessary photos and videos to finally implement it in the last day competition.</motion.p>
+        className='my-4 text-sm text-shoot-white sm:w-[80%] m-auto'>it's a new idea for an event that will see the light for its first version in April 2023. SHOOT IT will start by offering workshops in photography and editing. It will later on organize an outing to a before-hand chosen location to allow candidates to prepare the necessary photos and videos to finally implement it in the last day competition.</motion.p>
         <motion.div
         variants={textVariant(1.4)}
         className='flex flex-col md:flex-row items-center	 gap-4 md:gap-0 justify-between  w-full'>
