@@ -23,11 +23,12 @@ const Navbar = () => {
             {navLinks.map((navLink)=>{
                 return(
                     <li key={navLink.id} >
-                        <a href={`#${navLink.navId}`}>{navLink.text}</a>
+                        <a href={`#${navLink.navId}`} className='hover:text-shoot-blue' >{navLink.text}</a>
                     </li>
                 )
             })}
         </ul>
+        
 
         <div className='block md:hidden ' >
             {navMobile ? (

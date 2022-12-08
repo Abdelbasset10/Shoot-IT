@@ -15,7 +15,7 @@ module.exports = {
       "shoot-silver":"#C0C0C0	"
     },
     fontFamily:{
-      'shootFont':['Copperplate'-]
+      'shootFont':['Copperplate']
     }
   },
   

@@ -30,11 +30,11 @@ const Hero = () => {
         <motion.div
         variants={textVariant(1.4)}
         className='flex flex-col md:flex-row items-center	 gap-4 md:gap-0 justify-between  w-full'>
-        <div className='flex  gap-4 items-center   rounded-[12px] px-4 py-2 bg-shoot-perple w-[70%] md:w-[45%] lg:w-[40%] sm:justify-center  cursor-pointer text-shoot-white '>
+        <div className='flex  gap-4 items-center hover:bg-shoot-perpleDark  rounded-[12px] px-4 py-2 bg-shoot-perple w-[70%] md:w-[45%] lg:w-[40%] sm:justify-center  cursor-pointer text-shoot-white '>
             <MdOutlineViewAgenda className='md:text-xl text-2xl xl:text-3xl' />
             <p className='text-lg sm:text-xl overflow-y-hidden	 xl:text-2xl'>April 20-22, 2023</p>
           </div>
-          <div className='flex  gap-4 items-center   rounded-[12px] px-4 py-2 bg-shoot-perpleDark w-[70%] md:w-[45%] lg:w-[40%] sm:justify-center cursor-pointer text-shoot-white ' >
+          <div className='flex hover:bg-shoot-perple gap-4 items-center   rounded-[12px] px-4 py-2 bg-shoot-perpleDark w-[70%] md:w-[45%] lg:w-[40%] sm:justify-center cursor-pointer text-shoot-white ' >
             <GiPositionMarker className='md:text-xl text-2xl xl:text-3xl' />
             <p className='text-lg sm:text-xl overflow-y-hidden	 xl:text-2xl' >Marriott Hotel Bab Ezzouar</p>
           </div>
@@ -46,7 +46,7 @@ const Hero = () => {
 
         <motion.button
         variants={textVariant(1.4)}
-        className=' text-xl md:text-2xl text-shoot-perple rounded-[12px] w-[70%] md:w-fit mt-4   px-8 bg-shoot-white px-10 py-2' >Discover more </motion.button>
+        className=' text-xl md:text-2xl hover:bg-shoot-blue hover:text-shoot-white text-shoot-perple rounded-[12px] w-[70%] md:w-fit mt-4   px-8 bg-shoot-white px-10 py-2' >Discover more </motion.button>
 
 
       </div>
