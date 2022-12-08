@@ -131,15 +131,10 @@ export const agendaDay3 = [
   {
     id: 5,
     time: "03:00 pm - 04:30 pm",
-    tache: "Break time",
+    tache: "Final Presentations",
   },
   {
     id: 6,
-    time: "Final Presentations",
-    tache: "Workshop : How to use Camera in a professional way",
-  },
-  {
-    id: 7,
     time: "04:30 pm - 05:00 pm",
     tache: "Winner announcement + Closing ceremony",
   },

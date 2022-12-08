@@ -13,8 +13,9 @@ const About = () => {
     className='w-full bg py-10'
     id='about'
      >
+      
         <div className='w-[90%] m-auto bgHero2 '>
-          <h1 className='mb-10 text-4xl overflow-y-hidden	 sm:text-5xl text-shoot-white font-bold' >Who Are We</h1>
+          <h1 className='mb-10 text-4xl overflow-y-hidden	 sm:text-5xl text-shoot-blue font-bold' >Who Are We</h1>
             <motion.div
             variants={slideIn('right','tween',0.2,1)}
             className='gap-8 flex flex-col-reverse md:flex-row justify-between items-center' >

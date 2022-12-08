@@ -15,24 +15,24 @@ const Agenda = () => {
     variants={staggerContainer}
     initial='hidden'
     whileInView='show'
-    className='w-full  py-10'
+    className='w-full h-fit py-10'
     id='agenda'>
         <motion.div
         variants={slideIn('left','tween',0.2,1)}
         className='w-[90%] m-auto bgHero2'
         >
-            <h1 className='text-4xl overflow-y-hidden	 font-bold  text-shoot-white mb-10 '>Event Agenda</h1>
+            <h1 className='text-4xl overflow-y-hidden	 font-bold  text-shoot-blue mb-10 '>Event Agenda</h1>
             {isDay3 ? (
                 <div className='text-shoot-white' >
-                <h1 className='text-xl sm:text-2xl font-bold text-center' >April 21 , 2023</h1>
-                <h1 className='text-xl sm:text-2xl font-bold text-center my-8'>Trip day for shooting & filming</h1>
+                <h1 className='text-xl sm:text-2xl font-bold text-center' >April 22 , 2023</h1>
+                <h1 className='text-xl sm:text-2xl font-bold text-center my-8'>Competition day</h1>
                 <div className='flex flex-col gap-4' >
                     {agendaDay3.map((agenda)=>{
                     return(
                         <div className='flex gap-4 md:gap-10 items-center' key={agenda.id} >
-                                <p className='text-xs sm:text-base w-[10rem] sm:w-[15rem]  xl:w-[10rem]' >{agenda.time}</p>
-                                <img src="/arrow.png" alt="arrowImg" className='w-4 md:w-10' />
-                                <p className='text-xs w-full xl:w-[20rem] sm:text-base' >{agenda.tache}</p>
+                                <p className='text-base sm:text-base w-[10rem] sm:w-[15rem] font-bold xl:w-[10rem]' >{agenda.time}</p>
+                                <img src="/arrow.png" alt="arrowImg" className='w-10' />
+                                <p className='text-base w-full xl:w-[20rem] sm:text-base' >{agenda.tache}</p>
                             </div>
                     )
                     })}
@@ -48,8 +48,8 @@ const Agenda = () => {
                         {agendaDay1.map((agenda)=>{
                         return(
                             <div className='text-base flex justify-between gap-4 xl:gap-10 items-center' key={agenda.id} >
-                                <p className='text-base sm:text-base sm:text-base w-[10rem] sm:w-[15rem]  xl:w-[10rem]' >{agenda.time}</p>
-                                <img src="/arrow.png" alt="arrowImg" className='w-4 md:w-10' />
+                                <p className='text-base sm:text-base sm:text-base w-[10rem] sm:w-[15rem]  font-bold xl:w-[10rem]' >{agenda.time}</p>
+                                <img src="/arrow.png" alt="arrowImg" className='w-10' />
                                 <p className='w-full sm:text-base xl:w-[20rem]' >{agenda.tache}</p>
                                 <div className='hidden xl:block w-1 h-8 bg-shoot-blue' ></div>
                             </div>
@@ -65,8 +65,8 @@ const Agenda = () => {
                         {agendaDay2.map((agenda)=>{
                         return(
                             <div className='text-base flex justify-between gap-4 xl:gap-10 items-center' key={agenda.id} >
-                                <p className='text-base sm:text-base w-[10rem] sm:w-[15rem]  xl:w-[10rem]' >{agenda.time}</p>
-                                <img src="/arrow.png" alt="arrowImg" className='w-4 md:w-10' />
+                                <p className='text-base sm:text-base w-[10rem] sm:w-[15rem] font-bold xl:w-[10rem]' >{agenda.time}</p>
+                                <img src="/arrow.png" alt="arrowImg" className='w-10' />
                                 <p className='w-full sm:text-base xl:w-[20rem]' >{agenda.tache}</p>
                             </div>
                         )
