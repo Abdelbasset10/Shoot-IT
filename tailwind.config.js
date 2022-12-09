@@ -14,9 +14,10 @@ module.exports = {
       "shoot-white":"#FFFFFF",
       "shoot-silver":"#C0C0C0	"
     },
-    fontFamily:{
-      'shootFont':['Copperplate']
-    }
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+      copperplate: ["COPPERPLATE", "cursive"],
+    },
   },
   
   plugins: [],

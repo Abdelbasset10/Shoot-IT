@@ -8,9 +8,7 @@ import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 const index = () => {
   return (
-    <div className="font-shootFont" >
-      
-      
+    <div className="font-copperplate" >    
       <Navbar />
       <Hero />
       <About />

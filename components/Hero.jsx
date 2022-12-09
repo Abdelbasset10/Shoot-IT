@@ -12,7 +12,7 @@ const Hero = () => {
     initial='hidden'
     whileInView='show'
     viewport={{once:false, amount: 0.25}}
-    className='w-full xl:h-[89vh]  bg pb-16'
+    className='w-full  bg pb-16'
     id="home" >
       <div className='w-[90%] lg:w-[80%] overflow-y-hidden m-auto flex flex-col bgHero2 gap-2 text-center items-center justify-center '>
         <motion.img src="/logo.png" alt="logogImg"
